@@ -1,0 +1,21 @@
+.not-found-view {
+  padding: 100px 0;
+}
+
+.not-found-view .main {
+  background: url('../../assets/images/not-found.png');
+  background-repeat: no-repeat;
+  background-position: 0 center;
+  background-size: 100% 100%;
+  text-align: center;
+  width: 600px;
+  height: 300px;
+  margin: auto;
+  position: relative;
+}
+
+.not-found-view .main .button {
+  position: absolute;
+  bottom: 50px;
+  margin-left: -44px;
+}
