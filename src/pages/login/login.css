@@ -1,1 +1,12 @@
 
+.login {
+  @apply relative overflow-hidden bg-white;
+  &::after {
+    content: '';
+    @apply w-[57%] bg-dynamicColor -mt-[20%] -mb-[12%] -ml-[13%] absolute inset-y-0 left-0 transform rotate-[-4deg] rounded-[100%];
+  }
+}
+
+.login__input {
+  min-width: 300px;
+}

@@ -1,0 +1,29 @@
+.ant-menu-light:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  @apply bg-primary/20 text-primary;
+}
+
+.ant-menu .ant-menu-item {
+  border-radius: 0;
+}
+
+.menu-scrollbar {
+  max-height: calc(100vh - 64px);
+  overflow-y: hidden;
+}
+
+.menu-scrollbar:hover {
+  overflow-y: auto;
+}
+
+.scrollbar::-webkit-scrollbar {
+  width: 4px;
+}
+
+/* 滚动条的内层滑块颜色 */
+.scrollbar::-webkit-scrollbar-thumb {
+  @apply bg-gray-300;
+}
+
+.scrollbar::-webkit-scrollbar-button {
+  display: none;
+}
